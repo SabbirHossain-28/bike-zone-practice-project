@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
     <script>
         tailwind.config = {
           theme: {
@@ -64,7 +65,7 @@
         <div class="carousel w-full md:h-[550px] bg-bike-carousel-bg rounded-2xl">
             <div id="slide1" class="carousel-item relative w-full">
               <div class="flex flex-col md:flex-row gap-20 items-center justify-center p-10  md:p-24 ">
-                <div class="space-y-7 flex-1 text-center md:text-left">
+                <div class="space-y-7 flex-1 text-center md:text-left font-popin">
                     <h2 class="text-[#000] text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                     <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light ">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -84,7 +85,7 @@
 
             <div id="slide2" class="carousel-item relative w-full">
               <div class="flex flex-col md:flex-row gap-20 items-center justify-center p-10 md:p-24 ">
-                <div class="space-y-7 flex-1 text-center md:text-left">
+                <div class="space-y-7 flex-1 text-center md:text-left font-popin">
                     <h2 class="text-[#000] text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                     <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light ">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -101,7 +102,7 @@
             </div> 
             <div id="slide3" class="carousel-item relative w-full">
               <div class="flex flex-col md:flex-row gap-20 items-center justify-center p-10 md:p-24 ">
-                <div class="space-y-7 flex-1 text-center md:text-left">
+                <div class="space-y-7 flex-1 text-center md:text-left font-popin">
                     <h2 class="text-[#000] text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                     <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light ">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -118,7 +119,7 @@
             </div> 
             <div id="slide4" class="carousel-item relative w-full">
               <div class="flex flex-col md:flex-row gap-20 items-center justify-center p-10 md:p-24 ">
-                <div class="space-y-7 flex-1 text-center md:text-left">
+                <div class="space-y-7 flex-1 text-center md:text-left font-popin">
                     <h2 class="text-[#000] text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h2>
                     <p class="text-[rgba(0, 0, 0, 0.80)] text-base font-light ">Amet minim mollit non deserunt ullamco 
                         est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
@@ -137,8 +138,27 @@
 
           <!-- FEATURESD BIKE SECTION -->
 
-          <section class="featured-bike container mx-auto">
-            
+        <section class="featured-bike container mx-auto mt-40 ">
+            <div class="featured-bike-content container mx-auto text-center md:w-[650px] font-popin mb-12">
+              <h2 class=" text-[#000] text-5xl font-semibold">Fetured Bikes In This Year</h2>
+              <p class="text-[#E76F51] text-sm font-semibold">Best bike collection</p>
+              <hr class="w-14 mx-auto border-t-1 border-[#E76F51]">
+            </div>
+            <div class="bike-imgs flex justify-center gap-4 md:justify-between flex-wrap md:p-5">
+              <div class="img1 mix-blend-luminosity">
+                <img class="" src="images/others/feature-bike.png" alt="">
+              </div>
+              <div class="img2">
+                <img src="images/others/feature-bike.png" alt="">
+              </div>
+              <div class="img3 mix-blend-luminosity">
+                <img class="" src="images/others/feature-bike.png" alt="">
+              </div>
+            </div>
+          </section>
+          <section class="news font-popin container mx-auto">
+            <h2 class="text-[#0A0826] text-5xl font-semibold mt-32 mb-12 text-center">latest News</h2>
+              
           </section>
     </main>
     <footer></footer>
